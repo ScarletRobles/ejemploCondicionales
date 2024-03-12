@@ -40,7 +40,7 @@ public class EjerciciosCondicionales {
         
         ActividadCiclos miAc = new ActividadCiclos();
         miAc.cicloMientras();
-        miAc.comienzaPorSt();
+        miAc.comienzanPorSt();
         
         TodoMinuscula miMinuscula = new TodoMinuscula();
         miMinuscula.mostrarMinuscula();

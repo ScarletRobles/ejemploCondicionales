@@ -14,33 +14,36 @@ public class ActividadCiclos {
     public void cicloMientras(){
         listaNombres = new String[11];
         listaNombres[0] = "Edward Snowden";
-        listaNombres[1] = "Bill Gates ";
-        listaNombres[2] = "Steve Jobs ";
+        listaNombres[1] = "Bill Gates";
+        listaNombres[2] = "Steve Jobs";
         listaNombres[3] = "Mark Zukerberg";
-        listaNombres[4] = "German Cruz ";
+        listaNombres[4] = "German Cruz";
         listaNombres[5] = "Linus Tolvards";
-        listaNombres[6] = "Grigori Perelman ";
-        listaNombres[7] = "Terrence Tao ";
-        listaNombres[8] = "James Gosling ";
-        listaNombres[9] = "Steve Wozniak ";
-        listaNombres[10] = "Stephen Hawking ";
+        listaNombres[6] = "Grigori Perelman";
+        listaNombres[7] = "Terrence Tao";
+        listaNombres[8] = "James Gosling";
+        listaNombres[9] = "Steve Wozniak";
+        listaNombres[10] = "Stephen Hawking";
         
         int i=0;
-        while(i<listaNombres.length){
+        while (i<listaNombres.length) {
             if (listaNombres[i].endsWith("s")){
-                System.out.println("el aprendiz "+i+"es"+listaNombres [i]);
+                System.out.println("El aprendiz "+i+" es "+listaNombres[i]);
             }
             i++;
-        }    
+        }
     }
-     
-    public void  comienzaPorSt(){
+    public void comienzanPorSt(){
         int i=0;
-        do{
-            if(listaNombres[i].startsWith("st")){
-                System.out.println("El aprendiz" + i +"es"+listaNombres [i]);
+        do {            
+            if (listaNombres[i].startsWith("St")) {
+                System.out.println("El aprendiz "+i+" es "+listaNombres[i]);
+                
             }
             i++;
-        }while(i< listaNombres.length);
+ 
+        } while (i<listaNombres.length);
+        
     }
+    
 }
